@@ -47,7 +47,7 @@ public class steam_login extends javax.swing.JFrame {
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Inicio de sesión");
         getContentPane().add(jLabel2);
-        jLabel2.setBounds(400, 190, 180, 20);
+        jLabel2.setBounds(390, 190, 180, 20);
 
         jPanel1.setBackground(new java.awt.Color(16, 24, 34));
         jPanel1.setPreferredSize(new java.awt.Dimension(650, 320));
@@ -57,14 +57,14 @@ public class steam_login extends javax.swing.JFrame {
         jLabel3.setForeground(new java.awt.Color(0, 102, 255));
         jLabel3.setText("INICIA SESION CON TU NOMBRE DE CUENTA");
         jPanel1.add(jLabel3);
-        jLabel3.setBounds(30, 30, 250, 16);
+        jLabel3.setBounds(30, 40, 250, 16);
 
         jLabel4.setBackground(new java.awt.Color(199, 213, 224));
         jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(199, 213, 224));
         jLabel4.setText("CONTRASEÑA");
         jPanel1.add(jLabel4);
-        jLabel4.setBounds(30, 100, 80, 16);
+        jLabel4.setBounds(30, 110, 80, 16);
 
         jTextField1.setBackground(new java.awt.Color(42, 47, 54));
         jTextField1.setForeground(new java.awt.Color(255, 255, 255));
@@ -75,7 +75,7 @@ public class steam_login extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jTextField1);
-        jTextField1.setBounds(30, 120, 340, 30);
+        jTextField1.setBounds(30, 130, 340, 30);
 
         jTextField2.setBackground(new java.awt.Color(42, 47, 54));
         jTextField2.setForeground(new java.awt.Color(255, 255, 255));
@@ -86,7 +86,7 @@ public class steam_login extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jTextField2);
-        jTextField2.setBounds(30, 50, 340, 30);
+        jTextField2.setBounds(30, 60, 340, 30);
 
         jCheckBox1.setForeground(new java.awt.Color(199, 213, 224));
         jCheckBox1.setText("Recordarme");
@@ -96,7 +96,7 @@ public class steam_login extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jCheckBox1);
-        jCheckBox1.setBounds(30, 160, 160, 20);
+        jCheckBox1.setBounds(30, 170, 160, 20);
 
         jButton1.setBackground(new java.awt.Color(0, 120, 215));
         jButton1.setFont(new java.awt.Font("Arial", 1, 10)); // NOI18N
@@ -109,7 +109,7 @@ public class steam_login extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jButton1);
-        jButton1.setBounds(110, 200, 190, 40);
+        jButton1.setBounds(110, 210, 190, 40);
 
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/login_steam/qr.jpeg"))); // NOI18N
         jLabel6.setText("jLabel6");
@@ -120,7 +120,7 @@ public class steam_login extends javax.swing.JFrame {
         jLabel5.setForeground(new java.awt.Color(153, 153, 153));
         jLabel5.setText("Ayuda, no puedo iniciar sesion");
         jPanel1.add(jLabel5);
-        jLabel5.setBounds(120, 270, 170, 16);
+        jLabel5.setBounds(130, 270, 170, 16);
 
         getContentPane().add(jPanel1);
         jPanel1.setBounds(390, 240, 620, 320);
