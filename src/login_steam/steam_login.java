@@ -99,17 +99,17 @@ public class steam_login extends javax.swing.JFrame {
         jCheckBox1.setBounds(30, 160, 160, 20);
 
         jButton1.setBackground(new java.awt.Color(0, 120, 215));
-        jButton1.setFont(new java.awt.Font("Segoe UI", 1, 10)); // NOI18N
+        jButton1.setFont(new java.awt.Font("Arial", 1, 10)); // NOI18N
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("INICIAR SESION");
-        jButton1.setBorder(null);
+        jButton1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
         jPanel1.add(jButton1);
-        jButton1.setBounds(110, 190, 190, 40);
+        jButton1.setBounds(110, 200, 190, 40);
 
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/login_steam/qr.jpeg"))); // NOI18N
         jLabel6.setText("jLabel6");
