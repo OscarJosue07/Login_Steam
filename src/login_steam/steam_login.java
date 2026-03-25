@@ -114,7 +114,7 @@ public class steam_login extends javax.swing.JFrame {
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/login_steam/qr.jpeg"))); // NOI18N
         jLabel6.setText("jLabel6");
         jPanel1.add(jLabel6);
-        jLabel6.setBounds(370, 20, 250, 280);
+        jLabel6.setBounds(370, 0, 250, 310);
 
         jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(153, 153, 153));
